@@ -1,0 +1,37 @@
+@import 'mixins';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'services-adaptive';
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer_wrapper-tabletSD {
+  display: none;
+}
+
+.header_wrapper {
+  & .header_container {
+    & .header_right {
+      & .second_string {
+        & .services {
+          color: #F0145A;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.header_wrapper-tabletSD {
+  & .header_container {
+    & .second_string {
+      .services {
+        color: #F0145A;
+        text-decoration: underline;
+      }
+    }
+  }
+}

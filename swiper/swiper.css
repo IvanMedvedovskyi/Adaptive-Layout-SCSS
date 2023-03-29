@@ -1,0 +1,144 @@
+#wrapper {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto 60px;
+    padding: 0 60px;
+}
+
+.swiper {
+    max-width: 1600px;
+    height: 344px;
+}
+
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:not(:last-child) {
+    margin-right: 15px;
+}
+
+.swiper-slide {
+    display: flex;
+}
+
+.text_container {
+    margin: 30px 0 0 30px;
+}
+
+.team a {
+    text-decoration: none;
+}
+
+.team p {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF;
+}
+
+.team p svg {
+    vertical-align: top;
+}
+
+.title p {
+    margin-bottom: 30px;
+    max-width: 1140px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer_text-1 p {
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+}
+
+.footer_text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+
+@media (max-width: 1400px) {
+    .swiper {
+        height: 390px;
+    }
+}
+
+@media (max-width: 1172px) {
+    .swiper {
+        height: 540px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .swiper {
+        height: 647px;
+    }
+}
+
+@media (max-width: 920px) {
+    #wrapper_adaptive-tabletSD {
+        margin-bottom: 60px;
+    }
+
+    .swiper-slide {
+        display: block;
+    }
+
+    .swiper {
+        height: 970px;
+    }
+
+    .swiper_photo {
+        text-align: center;
+    }
+
+    .text_container {
+        max-width: 588px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 620px) {
+
+    #wrapper_adaptive-mobile {
+        width: 315px;
+        margin: 0 auto 60px;
+    }
+
+    .swiper {
+        height: 1220px;
+    }
+
+    .title p {
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 332px) {
+    #wrapper_adaptive-mobile {
+        width: 300px;
+    }
+}
+
+
+
+
